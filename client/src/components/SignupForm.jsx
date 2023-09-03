@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 
 // import { createUser } from '../utils/API';
@@ -53,6 +53,8 @@ const SignupForm = () => {
       const { token, user } = response.data.addUser;
       console.log(user);
       Auth.login(token);
+
+      console.log("LOGGGIN IN WORKING")
     } catch (err) {
       console.error(err);
       setShowAlert(true);
