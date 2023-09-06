@@ -62,13 +62,13 @@ SO THAT I can keep a list of books to purchase
 
 ## Live-URL
 
-[Deployed Page with Heroku](https://)
+[Deployed Page with Heroku](https://calm-mountain-04138-c13f8ae81894.herokuapp.com/)
 
 ## Screenshots
 
 <div align="center">
 
-![Example screenshot](./)
+![Example screenshot](./client/public/Screenshot.png)
 
 </div>
   
@@ -78,7 +78,7 @@ SO THAT I can keep a list of books to purchase
 
 ## Challanges
 
-Deploying to Heroku was a massive challenge! The main hurdle was figuring out how to connect MongoDB with Heroku. To do so you must start by setting up an account through the MongoDB Cloud Atlas. Navigate to the database access tab, giving MongoDB roles atlasAdmin access, set a password and then access the correct connection string by accessing through the database tab, the connect button, and through their accessing drivers, once there, copy the connection string, hop back over to Heroku and in your setting tab add Config Vars (key: MONGODB_URI, value: mongodb+srv://<username>:<password>@cluster0.ibn4vyk.mongodb.net/?retryWrites=true&w=majority) paste the connection string in for the value filling in your username and password in the appropriate locations.
+Deploying to Heroku was a huge challenge! The main difficulity was figuring out how to connect MongoDB with Heroku. To do so you must start by setting up an account through the MongoDB Cloud Atlas. Navigate to the database access tab, giving MongoDB roles atlasAdmin access, set a password and then access the correct connection string by accessing through the database tab, the connect button, and through their accessing drivers, once there, copy the connection string, hop back over to Heroku and in your setting tab add Config Vars (key: MONGODB_URI, value: mongodb+srv://<username>:<password>@cluster0.ibn4vyk.mongodb.net/?retryWrites=true&w=majority) paste the connection string in for the value filling in your username and password in the appropriate locations.
 
 ## Features
 
@@ -86,7 +86,6 @@ Features of the site include Reacts ability to easily create a one page applicat
 
 ## Suggested Future Development
 
-- Dark Mode Toggle
 - Continued display and UI development
 - Adding pages where users can interact with other users profiles 
 - Including unit testing
@@ -113,4 +112,4 @@ Some codes were based on mini project and some other modules from bootcamp.
 
 ## Questions
 Please visit my [GitHub Repo](https://github.com/Esztergb/book-search-engine) to view this project.
-[Deployed Page](https://)
+[Deployed Page](https://calm-mountain-04138-c13f8ae81894.herokuapp.com/)
